@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title>jQuery Fixed Overflow Scroll</title>
+		<style type"text/css">
+		body {
+			font-family:Times NEw Roman;
+			padding:40px;
+		}
+		div {
+			overflow:scroll;
+			height:100px;
+			padding:40px;
+			font-size:15px;
+			line-height:22px;
+			border:1px #000000 solid;
+			-webkit-overflow-scrolling: touch;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>jQuery Plugin - iOS Overflow Scroll Fix</h1>
+		<p>On mobile safari, when an element with overflow:scroll is already scrolled to the top when you scroll up, the whole document scrolls instead of the scrolling bounce. Likewise at the bottom. This tiny plugin fixes this.</p>
+		<h2>With Fix</h2>
+		<div class="scroll">
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+		</div>
+		<h2>Without Fix</h2>
+		<div>
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+		</div> 
+		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src="jquery.fixedoverflow.js"></script>
+		<script>
+			$(".scroll").fixedOverflow();
+		</script>
+	</body>
+</html>
