@@ -1,6 +1,6 @@
 jQuery Plugin - iOS Overflow Scroll Fix
 ====================
-On mobile safari, when an element with overflow:scroll is already scrolled to the top when you scroll up, the whole document scrolls instead of the scrolling bounce. Likewise at the bottom. This tiny plugin fixes this. 
+On mobile safari, when you try to scroll up in the element with overflow:scroll, while it it already scrolled to the top, the whole page scrolls instead of the scrolling bounce. This also occurs at the bottom. This tiny jQuery plugin corrects this.
 
 Installation
 ---------------------
@@ -14,3 +14,5 @@ Installation
 Links
 ---------------------
  - [Demo](http://htmlpreview.github.com/?https://github.com/adeniszczyc/iOSOverflowScrollFixed/blob/master/index.html)
+ - [Blog Post](http://andrewdeniszczyc.com/blog/plugin-overflow-scroll/)
+

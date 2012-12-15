@@ -2,7 +2,6 @@
  * jQuery Fixed Overflow
  * http://www.andrewdeniszczyc.com/
  * Copyright 2012, Andrew Deniszczyc
- * Released under the MIT License.
  */
 (function($){
     $.fn.fixedOverflow = function(options) {
