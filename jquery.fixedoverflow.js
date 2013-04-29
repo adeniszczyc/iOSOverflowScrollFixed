@@ -6,7 +6,7 @@
 (function($){
     $.fn.fixedOverflow = function(options) {
     return this.each(function(){                
-        $this = $(this);                                      
+        var $this = $(this);
         $this.bind("touchstart", function() {
             // Check that the element has actually overflowed, and check if at the top
             if ($this.prop("scrollHeight") > $this.innerHeight() && $this.scrollTop() == 0) {
