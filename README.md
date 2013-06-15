@@ -14,5 +14,3 @@ Installation
 Links
 ---------------------
  - [Demo](http://htmlpreview.github.com/?https://github.com/adeniszczyc/iOSOverflowScrollFixed/blob/master/index.html)
- - [Blog Post](http://andrewdeniszczyc.com/blog/plugin-overflow-scroll/)
-
